@@ -53,5 +53,7 @@ public class Testai extends TestCase {
 		t.click("//input[@id='register-button']");
 		t.findVisibleElement(By.xpath("//div[@class='result'][contains(., 'Your registration completed')]"));
 		t.click("//input[@value='Continue']");
+		
+		//test git push
 	}
 }
